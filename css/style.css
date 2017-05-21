@@ -3,6 +3,10 @@ html {
 }
 
 
+body{
+	width: 900px;
+}
+
 #SFCityscape {
 	width: 1350px;
 	height: auto;
@@ -23,6 +27,13 @@ h2 {
 h2.SecondH2{
 	display: none;
 	color: red;
+}
+
+img.cleanhouse{
+	max-width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /*firstparapraph1 and firstParagraph2 located in About US body page*/
@@ -58,7 +69,7 @@ header .ImageLogo{
 .NavLogo{
 	position: relative;
 	left: 150px;
-	display: none;
+	/*display none reason nav not showing. It was display none for js later to appear*/
 }
 nav li {
     display: inline;
