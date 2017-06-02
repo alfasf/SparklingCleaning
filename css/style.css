@@ -1,9 +1,6 @@
-html {
-    background-color: #CFE2E4;
-}
-
 
 body{
+	background-color: #CFE2E4;
 	width: 900px;
 }
 
@@ -15,21 +12,23 @@ body{
 
 
 h2 {
+	display: inline-block;
+	width: 100%;
 	text-align: center;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 75px;
     color: #d6be5c;
 }
 
-h2.SecondH2{
-	display: none;
+.SecondH2{
+
 	color: red;
 }
 
-img.cleanhouse{
+.cleanhouse{
 	max-width: 100%;
 	height: auto;
 	margin-right: auto;
@@ -61,7 +60,7 @@ header .ImageLogo{
     width: 225px;
     height: 75px;
     float: left;
-    padding: 5px 50px;
+    margin-right: 25px;
 }
 
 /*This is the nav section*/
